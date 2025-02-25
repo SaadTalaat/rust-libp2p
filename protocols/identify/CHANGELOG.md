@@ -1,3 +1,7 @@
+## 0.46.1
+
+- Fix `Identify::discovered_peers` to remove peers on `DialError::WrongPeerId` events
+
 ## 0.46.0
 
 - Add `hide_listen_addrs` option to prevent leaking (local) listen addresses.
