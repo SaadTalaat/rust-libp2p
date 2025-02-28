@@ -1,6 +1,7 @@
 ## 0.46.1
 
-- Fix `Identify::discovered_peers` to remove peers on `DialError::WrongPeerId` events
+- Fix `Identify::discovered_peers` to remove peers on `DialError::{WrongPeerId, LocalPeerId}` events.
+  See [PR 5890](https://github.com/libp2p/rust-libp2p/pull/5890).
 
 ## 0.46.0
 
